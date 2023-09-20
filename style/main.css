@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(227, 227, 227);
+    height: 70px;
+}
+#form{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+#form input{
+    flex: 1;
+    padding: 8px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgb(227, 227, 227);
+    border-radius: 10px;
+    text-indent: 5px;
+}
+
+#form .btn{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.wrapper{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    
+}
+
+.card{
+    margin: 0 auto;
+    gap: 20px;
+    height: auto;
+    box-shadow: 0 0 10px rgb(227, 227, 227);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card-title{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgb(227, 227, 227);
+    gap: 10px 0;
+    border-radius: 5px;
+
+}
+.card-title p{
+    color: dodgerblue;
+}
+
+.card-title p:active{
+    color: blueviolet;
+}
+
+.first-img{
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 10px rgb(227, 227, 227);
+    aspect-ratio: 1/1;
+}
+
+.last-img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.learn-more{
+    color: dodgerblue;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(227, 227, 227);
+    border-radius: 10px;
+    width: 105px;
+    transition: all .3s ease-in-out;
+}
+
+.learn-more:hover{
+    color: blueviolet;
+}
+
+.learn-more:active{
+    transform: scale(.9);
+}
+
+.about-main-wrapper{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    /* background-color: dodgerblue; */
+
+}
+
+.about-main-wrapper .first-img{
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 0 10px rgb(227, 227, 227);
+}
+
+.about-main-wrapper .last-img{
+    width: 100%;
+    height: 300px;
+
+}
+.about-main-wrapper a{
+    background-color: gold;
+    /* color: red; */
+    /* text-decoration: none; */
+}
+
+.images{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.about-wrapper-title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#select{
+    border: none;
+    box-shadow: 0 0 10px rgb(227, 227, 227);
+    padding: 8px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.marquee{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.mark-img{
+    width: 30px;
+    height: 20px;
+}
